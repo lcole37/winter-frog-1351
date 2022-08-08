@@ -7,7 +7,7 @@ RSpec.describe Plot, type: :model do
     it { should have_many(:plants).through(:plant_plots) }
   end
 end
-    #unsure why I am getting this erro
+    #unsure why I am getting this error. 30 minutes lost >.<
      # NoMethodError:
      #   undefined method `klass' for nil:NilClass
      # # ./spec/models/plot_spec.rb:7:in `block (3 levels) in <top (required)>'
